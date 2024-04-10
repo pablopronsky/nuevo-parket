@@ -1,15 +1,13 @@
 ---
-import { Image } from 'astro:assets';
-import Logo from '../asset/logo.png';
+import Header from '../components/Header.astro';
 ---
 
 <html>
   <head>
-    <title>My Astro Site</title>
+    <title>Nuevo Parket Simulador</title>
   </head>
   <body>
-    <Image class="h-12 w-12" src={Logo} alt="logo" />
-   <h1 class="text-center text-3xl ">Simulador de pisos</h1>
+   <Header />
    
     <script
    async
@@ -21,3 +19,4 @@ import Logo from '../asset/logo.png';
 ></script>
   </body>
 </html>
+
