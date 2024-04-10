@@ -1,0 +1,17 @@
+---
+import { Image } from 'astro:assets';
+import ArrowImg from '../asset/arrow.png';
+---
+
+<div class="bottom-left-image">
+    <Image src={ArrowImg} alt="Bottom Left Image" />
+  </div>
+  
+  <style>
+    .bottom-left-image {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 1rem;
+    }
+  </style>
